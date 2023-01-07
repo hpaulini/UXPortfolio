@@ -41,6 +41,28 @@ body {
   border-radius: 25px;
 }
 
+.custom_long-btn {
+  display: inline-block;
+  padding: 10px 0;
+  text-align: center;
+  width: 345px;
+  outline: none;
+  color: #f7f7f7;
+  border: 1px solid transparent;
+  border-radius: 25px;
+}
+
+
+.custom_long-btn {
+  background-color: #000000;
+}
+
+.custom_long-btn:hover {
+  border: 1px solid #000000;
+  color: #000000;
+  background-color: transparent;
+}
+
 .custom_dark-btn {
   background-color: #000000;
 }
@@ -65,6 +87,12 @@ body {
   color: #fc5d35;
 }
 
+.custom_center-txt {
+  text-align: center;
+  font-style: italic;
+  font-size: 1.25rem;
+}
+
 .custom_a-txt {
   color: #000000
 }
@@ -78,9 +106,17 @@ body {
 .custom_heading-orange {
   text-align: left;
   font-weight: bold;
-  font-size: 2.75em;
+  font-size: 2.85em;
   padding-top: 35px;
   color: #fc5d35;
+}
+
+.custom_subheading-lightorange {
+  color: #fc5d35;
+  opacity: 50%;
+  text-align: left;
+  font-size: 1.15em;
+  padding-bottom: 10px;
 }
 
 .custom_subheading-orange {
@@ -326,12 +362,13 @@ a:focus {
 }
 
 .service_section .card {
-  text-align: center;
+  text-align: left;
   box-sizing: border-box;
   position: relative;
 }
 
 .service_section .card .card-title {
+  text-align: center;
   color: #fc5d35;
 
 }

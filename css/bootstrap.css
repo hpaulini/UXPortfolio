@@ -629,6 +629,12 @@ pre code {
   text-align: left;
 }
 
+.grid-item-right {
+  padding: 20px;
+  /*font-size: 30px;*/
+  text-align: right;
+}
+
 .grid-container-np {
   display: grid;
   grid-template-columns: auto auto;
