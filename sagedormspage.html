@@ -33,7 +33,7 @@
 <body>
   <div class="hero_area sub_pages">
     <!-- header section strats -->
-    <header class="header_section">
+    <header class="header_section" id="top">
       <div class="container">
         <nav class="navbar navbar-expand-lg custom_nav-container pt-3">
           <a class="navbar-brand" href="index.html">
@@ -74,73 +74,242 @@
   <section class="service_section">
     <div class="container">
       <h2 class="custom_heading-orange">SageDorms</h2>
+      <h2 class="custom_subheading-lightorange">Semester Project - Database Systems Course</h2>
 
       <div class="grid-container-four">
         <div class="grid-item-four">
           <h class="custom_subheading-orange">Timeline</h>
-          <p>4 Weeks</p>
+          <p>10 Weeks, <br>Spring 2020</p>
         </div>
         <div class="grid-item-four">
-          <h class="custom_subheading-orange">Tools</h>
-          <p>4 Weeks</p>
-        </div>
-        <div class="grid-item-four">
-          <h class="custom_subheading-orange">Methods</h>
-          <p>4 Weeks</p>
+          <h class="custom_subheading-orange">Tools/Software</h>
+          <p>mySQL, Python, Html, CSS, Javascript, Jinja, Google Suite, Zoom, LaTex</p>
         </div>
         <div class="grid-item-four">
           <h class="custom_subheading-orange">Team</h>
-          <p>4 Weeks</p>
+          <p>Gabriel Alzate, Yurie Muramatsu, Helen Paulini, Ilana Shapiro, Alan Zhou</p>
+        </div>
+        <div class="grid-item-four">
+          <h class="custom_subheading-orange">Methods</h>
+          <p>Web Design & Development, Frontend Engineering, Backend Engineering, OLTP Database Management </p>
         </div>
       </div>
 
-      <h class="custom_subheading-orange">Intro</h>
+      <hr></hr>
+      <br>
+      <h class="custom_subheading-orange" style="font-weight: bold">Project Overview</h>
       <p>
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
+        <span style="font-weight: bold;"> SageDorms</span> is a semester-long project created during my Database Systems course at Pomona College. For this project, teams were assigned to build an OLTP (online transaction processing) or OLAP (online analytical processing) database system aimed toward creating a solution or new system to improve a problem that students face. 
+        <br><br>
+        My team created the SageDorms website, an OLTP database system to facilitate our school’s <span style="font-weight: bold;">room-draw</span> process. SageDorms is intended for Pomona College students and the Housing and Residence Life admin. We were motivated to create this project in order to eliminate the previously in-person setup of room-draw, which required students to wait in-person for many hours in order to complete their dorm room selection. This process was slow and inconvenient, and also required residence hall staff to be present during this entire weekend long process to assign everyone’s rooms. By implementing an online system for room-draw, SageDorms provides a more <span style="font-weight: bold;"> efficient and convenient model </span> for both students and staff, in which each student has a registration slot during which they can choose their room right from their laptop or phone.   <br><br>
+      </p> 
+      <h class="custom_subheading-orange" style="font-weight: bold">My Role</h>
+      <p>
+        I co-led the creation of the frontend of our website, developing the web design, layout, and user flow for all user-facing aspects of our website. I oversaw the production of HTML, CSS, and Javascript. While I primarily focused on our system’s interface, frontend, and design, I also contributed toward backend and other features such as helping develop our business model, schema, collect data, test our website, and solve challenges and extra considerations when building our database system. <br><br>
       </p>
-      <h class="custom_subheading-orange">My Role</h>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
-      </p>
-      <h class="custom_subheading-orange">Challenge</h>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
-      </p>
-      <h class="custom_subheading-orange">Solution</h>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
-      </p>
-      <h class="custom_subheading-orange">Process and Approach</h>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
-      </p>
-      <h class="custom_subheading-orange">Research</h>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
-      </p>
-      <h class="custom_subheading-orange">Design Iterations</h>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
-      </p>
-      <h class="custom_subheading-orange">Final Screens</h>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
-      </p>
-      <h class="custom_subheading-orange">Reflections</h>
-      <p>
-        There are many variations of passages of Lorem Ipsum available, but
-        the majority have
+      <hr></hr>
+      <br>
+      <h class="custom_subheading-orange" style="font-weight: bold">Challenge Statement</h>
+      <p class="custom_center-txt">
+        <br>
+        How can we build a system that replaces the in-person room-draw process with a <span style="font-weight: bold;"> streamlined, organized, and accessible online room-draw </span> experience that allows students to make <span style="font-weight: bold;"> confident and informed </span> decisions when making their dorm room selections?
+      </p> <br>
+      <hr></hr>
+      <br>
+      <h class="custom_subheading-orange" style="font-weight: bold">Solution</h>
+      <div>
+        <center>
+          <img src="images/sagedorms/Group206.png" width="100%" height="auto">
+        </center>
+      </div>
+
+      <p align="center" style="font-size: 1.25rem">
+        <span style="font-weight: bold">SageDorms</span> provides easy online room-draw services throughout the whole selection process - from forming suite groups and choosing roommates, to finding the best room match for you, selecting your dorm or suite, and more!
       </p>
 
-      <p class="custom_heading-text">
+      <div class="grid-container-np">
+        <div class="grid-item-right" style="display:flex;justify-content:flex-end;align-items:center;">
+          <p style="font-size: 1.25rem;"> Simple and familiar login portal using Pomona College's Central Authentication System (CAS) login (8-digit student ID and school password) </p>
+        </div>
+
+        <div class="grid-item">
+          <img src="images/sagedorms/login2front.png" width="120%" height="auto">
+        </div>
+      </div>
+
+        <div>
+        <center>
+          <img src="images/sagedorms/Group208.png" width="105%" height="auto">
+        </center>
+      </div>
+
+      <div class="grid-container-np">
+        <div class="grid-item-right">
+          <img src="images/sagedorms/wishlist.png" width="120%" height="auto">
+        </div>
+        <div class="grid-item" style="display:flex;align-items:center;">
+          <p style="font-size: 1.25rem">
+            Save your favorite rooms to your wishlist for quick access once it's time to make your selection
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <center>
+          <img src="images/sagedorms/Group207.png" width="105%" height="auto">
+        </center>
+      </div>
+
+
+      <div class="grid-container-np">
+        <div class="grid-item-right" style="display:flex;justify-content:flex-end;align-items:center;">
+          <p style="font-size: 1.25rem"> 
+           <span style="font-style: italic; font-size: 1.45rem"> Real-time room viewing</span> <br>
+            During your allotted room-draw selection time, see what's still available and select your dorm from the list of remaining rooms</p>
+        </div>
+        <div class="grid-item">
+          <img src="images/sagedorms/addwishlist.png" width="115%" height="auto">
+        </div>
+      </div>
+
+      <hr>
+      <br>
+      <h class="custom_subheading-orange" style="font-weight: bold">Development Process</h><br>
+      <p>
+        To develop SageDorms, my team worked together to plan, build and manage the database, and finalize our user-friendly website. We collaborated in mapping out our site's desired functionalities, as well as brainstorming the myriad of considerations and user cases that we would need to account for with our system. We built our database management system, including entity relationship diagram, relational schema, and business logic. Finally, we put everything together by connecting the backend and frontend so that we had a smoothly running and visually appealing website that students could easily use.
+      </p>
+        <br>
+
+      <h class="custom_subheading-orange">Data Collection & Interviews</h>
+      <div>
+        <center>
+      <img src="images/sagedorms/data.png" width="80%" height="auto">
+    </center>
+  </div>
+      <p>
+        We collected and managed data on each room’s information, such as the sub-free or sub-op status of the room, the number of residents per room (single, double, or triple), the room’s building, number, and other room specific details (dimensions, number and type of windows, number and type of closet). Availability of rooms needs to be stored in real-time during the draw, as well as whether the room is part of an application-only or restricted dorm or whether the room is reserved for RA’s or sponsors. Rooms that are parts of suites also need to be differentiated from individual dorms. Accessibility information of the room and building (access to elevator and air conditioning) is also included in our data collection. Student data includes information such as ID, assigned draw number, draw type (suite or individual), and draw time. Once a student has completed their room selection, this room will also be stored in the database linked to its designated student.
+<br><br>
+<!-- We collected this data from Pomona’s online Housing and Residential Life resources. The information online includes dorm map layouts/floor plans, dorm size, window type, closet type, occupancy limit, sub-free status, suite status, and other room details. Other data we collected included previous years’ room draw details, such as a list of each student’s room draw number and which dorm they selected given their priority in room-draw.
+<br><br> -->
+We also conducted peer interviews to gain information from students on their previous room-draw experiences and how it can be improved. Students were highly in favor of an online system, and particularly expressed interest in a system that handles room-draw for singles, doubles, and multi-room suites. Through our interviews and data collection, we also gained knowledge on how the room-draw numbers are averaged for members of suites versus “drawn-up” for roommate duos. That is, the higher draw number of two students living together will be used when deciding room selection order.
+</p>
+      
+      <br>
+      <h class="custom_subheading-orange">Functionalities</h> <br>
+      <p>My team and I brainstormed a number of functionalities that could be implemented in this program, and categorized them into three groups: Must have, Good to have, and Icing on the cake.</p>
+
+      <span style="font-weight: bold">Must Have</span> 
+      <p>Our biggest priority is to create a working room draw system. Our must-have functionalities are as follows:</p>
+      <ol>
+        <li>Users must be able to see which rooms are available and which have already been taken.</li>
+        <li>Prior to selecting a room, students are allotted a room draw time slot according to their room draw number. During their time slot, a student can select an available room, which will then be marked as “taken” by the DBMS and removed from the list of available rooms. This is somewhat similar to the course selection process, in which students can add available courses to their schedule during their allotted course registration time.</li>
+        <li>There will be a search feature that allows users to filter available rooms by certain attributes or speci- fications (e.g. “two windows”) that they select from a drop-down list of choices. They can also search directly for specific rooms.</li>
+      </ol>
+
+      <span style="font-weight: bold">Good To Have</span> 
+      <ol>
+        <li>Users can use SageDorms for friendship suite room draw. A friendship suite consists of two to six rooms, and is selected by one person for the whole group during the draw. Suite drawing occurs before regular room draw. The group’s room draw number, an average of (up to) the four primary members, will be calculated ahead of time and will determine the group’s draw time. Each group designates a representative, who performs the selection of a friendship suite on behalf of the group. Users can also choose to view rooms grouped by the suite that the rooms belong to.</li>
+        <li>Users can create and curate a wishlist of their desired rooms. They can choose to have only these rooms displayed to them. This allows them to more easily see which of their desired rooms are still available.</li>
+      </ol>
+
+      <span style="font-weight: bold">Icing On The Cake</span> 
+      <p>Our stretch feature is to implement the layout of room availability as an interactive map by building (taken rooms will be greyed out). Users can see room details by clicking on rooms on the map. During their time slot, users can select their room through the map as well.</p>
+
+      <br><br>
+
+
+      <!-- <h class="custom_subheading-orange">Business Logic & Other Considerations</h> <br><br>
+      <p>
+        In the draw, students will be assigned a 5-minute time slot to register based on their draw number. The draw times for suites are assigned first. Each student in a suite receives the same suite draw number that is the average of the draw numbers in their group. One student from each suite group will indicate beforehand that they will be the “representative” for their group, and that person will be given a sign-up time to pick the suite for their group. Once a suite is picked, all students in that suite will all be randomly assigned to a single room in that suite. They must submit the individual rooms within that suite that they each want to the housing office within a week, or they will be permanently assigned to the previously randomly chosen rooms in that suite. If a group does not select (or is able to get) a suite during suite draw, the original draw numbers will be reassigned to each student and all will move to singles draw.
+        In addition, if during the suite draw one or more students decide to drop out of the group, that group’s average draw number/suite draw time slot will not change. However, that student will be removed from the ProspectiveSuiteGroup table and will receive their original individual draw number and get moved to singles draw. In addition, the remaining suite group of size n will now only be able to select suites also of size n. Only after suite draw ends will the draw times be assigned to students for singles draw (so all students participating in singles draw are known).
+During the singles draw, rooms that were already assigned to a student (i.e. in the suite draw) and rooms that are reserved for sponsor groups will not be selectable. If a student attempts to “draw up” another student into a double but does not succeed in getting that room, or if the student being drawn up wants to back out, that student must select a different room and the other student will revert back to their original draw number and draw time slot. This also means the tuple in the DrawsUp table for these students will be deleted. Some students choose the deferred housing option. We handle these students by assigning them to a dorm called “Deferred,” with the room number 000. If a student does not register before the draw has ended, they will default to the deferred housing option. Student can select a room from the time they are allotted until the end of the draw. Once they select a room, they cannot choose a different one.
+Students can form wishlists of maximum 15 rooms before and during the draw (before they choose). During the draw, as rooms get taken by other people, these rooms will get deleted from that student’s wishlist. When a wished for room is taken, the student is notified and they can add more rooms to the wishlist. The student must still physically choose the room; i.e. the system does not automatically place the student in a room based on the wishlist. A student can also choose not to have a wishlist.
+Students choosing the off campus option will need to have this cleared before room draw and will not be able to select a room during room draw. They will not receive a slot to register during the draw; in essence, their draw number will be “skipped over” when assigning time slots. This is the same for students studying abroad.
+
+      </p><br><br> -->
+
+      <h class="custom_subheading-orange">Full Stack Implementation Details</h> <br><br>
+      <p>Perhaps our first lesson in database implementation was that data in the real world is often messy. We wanted to populate our MySQL database with rooms available to students, which included information regarding dorm, room dimensions, closet and window types, occupancy, etc. However, there was no readily-available source for this information outside of the room descriptions that Housing and Residence Life posts on its website. These descriptions were poorly formatted, incomplete, contained extraneous information, and, most importantly, inconsistent. We first pulled the raw information into a text file, then cleaned and pre-processed it, both manually and using a Python script that identified when data was not in the appropriate atomic structure.  <br><br>
+      Once we had the data in a clean .txt file format, we wrote a python script to parse it and convert it to a .csv file whose columns match those in the corresponding tables in the database. We created SQL files to create the tables and add sample data to the Dorm and Student tables before adding data from the .csv file. At this point all data has been stored in the database. Queries that retrieve or alter data are written as stored procedures in our various SQL files. Examples include getting room details, creating a suite group, and adding to your wish list. Each of the stored procedures has a python wrapper function that allows it to be called from the frontend.  <br><br>
+      Our python file, app.py, is the point of connection between frontend and backend. We run the project by running this file. Each function in app.py gets called when the user goes to the relevant HTML page. Info is passed from the HTML files to app.py in forms sent via POST methods. If there is data to be returned to app.py that needs to be displayed on the frontend, the function will return this data as a list of lists and then pass this data to the HTML file for further processing. This allows each individual page to be constructed based on the contents of the database.<br><br>
+      For the frontend of our app, we used an html template as the base skeleton for the formatting and layout. We heavily built upon the template, adding new pages, tabs, forms, buttons, tables, images, and other features. For example, we made html pages for viewing rooms within dorms, containing images of each dorm’s floor maps, and tables containing each suite or room within the dorm, along with room details such as size and bathroom type. These html files are coded such that they use the room data from our database in order to populate the tables and room details. Another feature we included was with the "Wishlist" buttons that allow a user to add a room to their personal wishlist. The wishlist button is styled such that the button disappears once it is clicked, so that the user doesn’t add a room to their wishlist more than once. This was possible through AJAX (Asynchronous Javascript and XML), which allows us to send POST requests without refreshing the user’s page.  
+      <!-- Another html file to make note of is the filtered search page. This page/html file uses a form to allow for the user to input search filters. On this page, we implemented two forms, one for singles and doubles, and one for suites. This is because the suite draw occurs separately from room draw, so we needed to include this separation. Once the user hits the submit button for either form, it redirects to the viewing pages for either the individual room page or suite page, depending on the type of room search. These two pages are responsible for displaying the appropriate rooms based on the search filters. Our html links with the backend through python functions in order to communicate how to populate the front.  -->
+    </p><br>
+
+    <div>
+      <center>
+        <img src="images/sagedorms/wishlistbutton.gif" width="25%" height="auto">
+      </center>
+    </div>
+
+    <br>
+
+     <h class="custom_subheading-orange">Design Iterations</h> <br><br>
+     <div>
+       <center>
+              <img src="images/sagedorms/Group213.png" width="100%" height="auto">
+       </center>
+     </div>
+     <p>
+      For the first iteration of our frontend, I considered using a Wix template for our site. However, after testing out styles and formats, I decided to use a simple HTML template as a base canvas that I could more freely customize and alter to fit the needs of our website. <br><br>
+      At first, I played with contrasting blue and orange colors, to match Pomona College’s school colors. While this color scheme is fitting for our site which provides services affiliated with Pomona College, the high contrast between the vivid blue and bright oranges created a busy and oversaturated look. Because our website provides a wide range of services and information, I wanted to make sure that the style of the website is minimalistic and would not be distracting while using it. So, instead of using the original orange and blue color scheme, I decided to go with a simple teal/mint green color scheme, with cohesive and minimal accent colors. This gave our website a much more sleek and organized look, while still providing contrast between the text and components so that all parts of our website are easy to read and understand. <br><br>
+      I also wanted to utilize plenty of whitespace on our site, so that elements did not feel cluttered or cramped. Because room-draw can be an overwhelming process, especially for first year students who are going through room-draw for the first time, I wanted to make sure our site was as calming and straightforward as possible. I achieved this by editing and revising the site’s design from the initial iteration to the final version by implementing clean and organized grids, simple typefaces and icons, and a minimalistic color scheme with lots of whitespace.
+
+     </p>
+<br>
+
+      <hr></hr>
+      <br><br>
+      <h class="custom_subheading-orange" style="font-weight: bold">Style Guide</h><br>
+      <img src="images/sagedorms/styleguide.png" width="95%" height="auto"><br>
+      <hr><br>
+<!--       <h class="custom_subheading-orange">Color</h>
+      <p>
+        For our color scheme, we used three greenish colors that were all derived from the same hue: an off-white with a tinge of green, our primary green, and a darkened version of our green. This color palette takes advantage of the fact that green prompts the user with ideas of nature, calm, organic, and freshness. We also utilized a bright yellow as an accent color that made buttons pop-out and a simple, readable black for text color. Our design utilizes the 60-30-10 color rule across the app pages: roughly 60% of the page is the off-white color, 30% of the page is the primary green color, and 10% of the page is highlight colors like the dark green and yellow.
+      </p>
+      <h class="custom_subheading-orange">Typeface</h>
+      <p>
+        A desire for readability informed our font selection: Sans serif typefaces afford better readability on digital devices and work well for headings. We chose two basic sans serif typefaces: Nunito for header text and Open Sans for body text. For even smaller subtext, we used a light font of Open Sans.
+      </p>
+      <h class="custom_subheading-orange">Components & Icons</h>
+      <p>
+        We used primarily rounded, natural shapes across the application to help lessen the cognitive load on the user and fit the theme of our app.
+      </p> -->
+
+      <br>
+      <h class="custom_subheading-orange" style="font-weight: bold">Final Product</h><br><br>
+        <h class="custom_subheading-orange">Demo Video</h> <br><br>
+
+      
+      <div>
+        <center>
+          <div style="width: 960px; height: 540px; position: relative;">
+          <iframe src="https://drive.google.com/file/d/1yvsSlv-3QkjcajlonvoK00qSXoYEa_wm/preview" width="960" height="540" style="border:none;" scrolling="no" seamless="" ></iframe>
+          <div style="width: 80px; height: 80px; position: absolute; opacity: 0; right: 0px; top: 0px;"></div>
+        </div>
+          <p align="center">🔈 (Sound on)</p>
+        </center>
+      </div>
+      
+      <br><br><br>
+     
+
+      <hr></hr>
+      <br>
+      <h class="custom_subheading-orange" style="font-weight: bold">Reflection</h><br><br>
+      <p>
+        Through this project, I learned and gained first hand experience of the full stack process from setting up a mySQL database to building the frontend, and how to connect the backend and frontend with Python. My team and I became familiar with using mySQL to write complex queries, and the start to finish pipeline from user to backend and back. This project was completed over ten weeks, and along with the technical skills and knowledge I gained, I also learned the importance of open communication and having regular team meetings. Because we each had our own focus on certain aspects of this project, it was vital that we were all on the same page and updating each other with our progress and work, as well as collaborating, brainstorming, and making decisions together often. We also learned the importance of starting tasks early and debugging early and often to test our code and uncover bugs before moving on to other parts of our app. Through this, I also gained insightful experience on finding resources and helpful tips online that I could use when I needed assistance or guidance when implementing a new or unfamiliar feature. As my team and I worked on our project, we became more familiar with the intricacies of implementing our system, and it became easier to identify errors and know how to write our code such that it is scalable, comprehensive, and as error free as possible. 
+      
+      <br><br>
+      Also, I would like to thank my professor, Yuqing Melanie Wu, and amazing teammates Gabe Alzate, Yurie Muramatsu, Ilana Shapiro, and Alan Zhou. <span style="font-size: 1.15rem">☺</span></p>
+      <br><br>
+
+      <div style="display:flex;justify-content:center;align-items:center;">
+      <a href="#top" class="custom_long-btn">
+            Back to Top
+          </a></div>
+
+<!--       <p class="custom_heading-text">
         There are many variations of passages of Lorem Ipsum available, but
         the majority have
       </p>
@@ -183,7 +352,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- <div class="d-flex justify-content-center">
         <a href="" class="custom_dark-btn">
           Read More
