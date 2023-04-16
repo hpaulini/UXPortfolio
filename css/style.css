@@ -414,6 +414,17 @@ a:focus {
   width: 95%;
 }
 
+/*.slider_item-detail h2 {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.slider_item-detail h3 {
+  padding-left: 200px;
+  padding-right: 200px;
+  line-height: 1.5em;
+}*/
+
 .slider_item-detail p {
   margin: 45px 0;
 }
@@ -522,6 +533,24 @@ a:focus {
         z-index: 99;
     }
     .btngrad:hover .img-top {
+        display: inline;
+    }
+
+
+    .btngradient {
+        position: relative;
+        display: inline-block;
+        padding-left: 200px;
+        width: 70%;
+    }
+    .btngradient .img-top {
+        display: none;
+        position: absolute;
+        left: 200px;
+        z-index: 99;
+        width: 30.2%;
+    }
+    .btngradient:hover .img-top {
         display: inline;
     }
 
